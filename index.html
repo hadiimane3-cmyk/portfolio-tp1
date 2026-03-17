@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Imane HADI</title>
+    <style>
+        /* Design Global */
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f4f7f9; color: #333; }
+
+        /* En-tête */
+        header { background-color: #2c3e50; color: white; padding: 30px 20px; text-align: center; }
+        nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; }
+        nav a { color: #3498db; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+
+        /* Conteneur principal */
+        main { max-width: 900px; margin: 20px auto; padding: 20px; }
+
+        /* Sections blanches */
+        section { background: white; margin-bottom: 20px; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); overflow: hidden; }
+        h1, h2 { margin-top: 0; }
+        h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+
+        /* Style de l'image de profil */
+        .profile-pic { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 4px solid #3498db; float: left; margin-right: 25px; }
+
+        /* Tableau des formations */
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th { background-color: #3498db; color: white; text-align: left; padding: 12px; }
+        td { padding: 10px; border-bottom: 1px solid #eee; }
+
+        /* Pied de page */
+        footer { text-align: center; padding: 20px; background-color: #2c3e50; color: white; margin-top: 20px; }
+        footer a { color: #3498db; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Imane HADI</h1>
+        <p>Étudiante en 1ère année Big Data & Cloud Computing à l'ENSET</p>
+        <nav>
+            <ul>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#formations">Formation</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+            <img src="../images/imane-image.png" alt="Portrait professionnel d'Imane HADI" class="profile-pic">
+            <p>Étudiante en 1ère année Big Data & Cloud Computing à l'ENSET Mohammedia, passionnée par l'analyse de données et le développement informatique. Sérieuse, analytique et motivée, je cherche à développer mes compétences à travers des projets et stages en Data.</p>
+        </section>
+
+        <section id="formations">
+            <h2>Parcours Académique</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Période</th>
+                        <th>Formation</th>
+                        <th>Établissement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09/2025 - Actuel</td>
+                        <td>Diplôme d'ingénieur : Big Data & Cloud Computing</td>
+                        <td>ENSET, Mohammedia</td>
+                    </tr>
+                    <tr>
+                        <td>09/2023 - 06/2025</td>
+                        <td>DEUST : MIP</td>
+                        <td>FST, Mohammedia</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="competences">
+            <h2>Compétences Techniques</h2>
+            <ul>
+                <li><strong>Langages :</strong> Python, C, Java, JavaScript, SQL, HTML/CSS</li>
+                <li><strong>Data & Algorithmique :</strong> Structures de données, Analyse de données, Optimisation</li>
+                <li><strong>Outils & Systèmes :</strong> Jupyter Notebook, Power BI, Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section id="projets">
+            <h2>Projets réalisés</h2>
+            <ul>
+                <li><strong>Analyse de Feedbacks :</strong> Application web interactive (Python & Streamlit) pour l'analyse des feedbacks clients et automatisation des e-mails.</li>
+                <li><strong>Supermarché Bio :</strong> Application de gestion de stock, facturation et traitement de données.</li>
+                <li><strong>Cedratec Smart-B2B Hub :</strong> Plateforme intelligente de maintenance industrielle.</li>
+                <li><strong>Smart City :</strong> Urban Analytics InsightEngine.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Email : <a href="mailto:hadiimane3@gmail.com">hadiimane3@gmail.com</a></p>
+        <p>
+            Retrouvez-moi sur : 
+            <a href="https://www.linkedin.com/in/imane-hadi" target="_blank" rel="noopener">LinkedIn</a> | 
+            <a href="https://github.com/hadiimane3-cmyk" target="_blank" rel="noopener">GitHub</a>
+        </p>
+        <p>&copy; 2026 Imane HADI - Portfolio Personnel</p>
+    </footer>
+
+</body>
+</html>
